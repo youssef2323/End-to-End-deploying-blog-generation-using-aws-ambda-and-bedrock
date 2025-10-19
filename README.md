@@ -12,7 +12,6 @@ A serverless HTTP endpoint that accepts a JSON body with a blog topic, asks **Am
 <details>
 <summary>Mermaid (renders on GitHub)</summary>
 
-```mermaid
 flowchart LR
     A[Client (Postman/cURL)] -- HTTPS POST /blog-generation --> B[Amazon API Gateway (proxy)]
     B --> C[AWS Lambda (app.py)]
@@ -21,3 +20,4 @@ flowchart LR
     C -->|logs| F[CloudWatch Logs]
     C -->|200 JSON| B
     B --> A
+
