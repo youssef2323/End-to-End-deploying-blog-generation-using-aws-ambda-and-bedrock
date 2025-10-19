@@ -15,11 +15,12 @@ A serverless HTTP endpoint that accepts a JSON body with a blog topic, asks **Am
 ---
 
 ## Architecture
-![High-level flow](screenshots/1.png)
+![High-level flow](screenshots/66.png)
 
 ---
 
 ## Request & Response
 
 ### Endpoint
+
 
